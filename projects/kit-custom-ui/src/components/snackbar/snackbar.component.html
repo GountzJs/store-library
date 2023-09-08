@@ -1,0 +1,22 @@
+<div
+  *ngIf="showSnackbar"
+  class="snackbar-container"
+  [ngClass]="{
+    'snackbar-success': status === statusSnackbar.Success,
+    'snackbar-error': status === statusSnackbar.Error
+  }"
+>
+  <div class="icon-container">
+    <i
+      class="bx"
+      [ngClass]="{
+        'bxs-check-circle': status === statusSnackbar.Success,
+        'bxs-x-circle': status === statusSnackbar.Error
+      }"
+    ></i>
+  </div>
+  <p>{{ message }}</p>
+  <button type="button" class="btn-close" (click)="hide()">
+    <i class="bx bx-x"></i>
+  </button>
+</div>

@@ -8,6 +8,15 @@
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
+    "strictPropertyInitialization": false,
+    "paths": {
+      "kit-custom-ui": [
+        "dist/kit-custom-ui"
+      ],
+      "kit-utilities": [
+        "dist/kit-utilities"
+      ]
+    },
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
