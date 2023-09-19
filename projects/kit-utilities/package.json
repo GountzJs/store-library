@@ -1,6 +1,6 @@
 {
   "name": "kit-utilities",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "peerDependencies": {
     "@angular/common": "^16.2.0",
     "@angular/core": "^16.2.0",
